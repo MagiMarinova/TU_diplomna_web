@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="public\stylesheets\style.css">
+</head>
+<body>
+<meta charset="UTF-8">
+
+
+<h1>Система за видеонаблюдение</h1>
+<div class="login" align="center">
+
+    <h3>Влезте тук</h3>
+    <form action="/login" method="post">
+
+        <div class="login-item">
+            <input type="text" name="username" required="required" placeholder="Username">
+        </div>
+        <!-- Поле за въвеждане на име -->
+        <div class="login-item">
+            <input type="password" name="password" required="required" placeholder="Password">
+        </div>
+        <!-- Поле за въвеждане на парола -->
+        <div class="button-panel">
+            <input type="submit" class="button" title="Log In" name="login" value="Login"></input>
+        </div>
+        <!-- Бутон за потвърждаване -->
+    </form>
+</div>
+</body>
+</html>
