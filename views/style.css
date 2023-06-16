@@ -9,7 +9,7 @@ h1,h2 {
 
 body {
   color: #fff;
-  background:url(img/bg.jpg)no-repeat center center fixed;
+  background:url(img/bg.jpeg)no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -28,7 +28,7 @@ body {
 .login-item {
   width:80%;
   margin-left:-20%;
-  margin-right:2,5%;
+  margin-right:2.5%;
 }
 
 h3{
@@ -53,12 +53,12 @@ h3{
 }
 
 input[type='password']{
-  background: transparent url("pass.jpg") no-repeat;
+  background: transparent url("img/pass.jpg") no-repeat;
   background-position: 10px 50%;
 }
 
 input[type='text']{
-  background: transparent url("user.jpg") no-repeat;
+  background: transparent url("img/user.jpg") no-repeat;
   background-position: 10px 50%;
 
 }
