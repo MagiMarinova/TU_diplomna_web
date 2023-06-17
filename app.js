@@ -21,7 +21,7 @@ con.connect();
 app.engine('html', mustacheExpress());
 app.set('view engine', 'html');
 app.set('views',path.join(__dirname, 'views'));
-
+app.use(express.static(__dirname + '/views'));
 
 app.use(logger('dev'));
 app.use(express.json());
